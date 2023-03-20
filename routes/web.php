@@ -22,3 +22,5 @@ Route::get('/', function () {
 Route::resource('product', ProductController::class);
 
 Route::get('/lat1', [Lat1Controller::class, 'index']);
+
+Route::get('/lat1/m2', [Lat1Controller::class, 'method2']);
