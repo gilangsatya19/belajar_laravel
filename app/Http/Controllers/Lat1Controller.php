@@ -20,6 +20,6 @@ class Lat1Controller extends Controller
 		);
 		return view('v_latihan2', $data);
 	}
-
-
+	
+	
 }
